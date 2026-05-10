@@ -1,0 +1,43 @@
+html{
+  padding: 0px;
+  --true-white: white;
+}
+@font-face {
+  font-family: 'HiptonSans-Regular';
+  src: url('../fonts/hipton/HiptonSans-Regular.ttf');
+}
+body {
+  background-color: #362277;
+  display: grid;
+  align-items: center;
+  padding: 0px;
+  color: var(--true-white);
+}
+bold {
+  font-weight: bold;
+}
+
+h1, h2, h3 {
+  font-family: 'HiptonSans-Regular', 'Georgia', serif;
+  color: var(--true-white);
+}
+
+h2{
+  font-size: 1.35rem;
+}
+
+.left {
+  text-align: left;
+}
+.m1 {
+  margin: 1.5rem;
+}
+.m2 {
+  margin: 2rem;
+}
+.mt3 {
+  margin-top: 3rem;
+}
+.w65{
+  width: 65%;
+}
